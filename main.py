@@ -40,7 +40,7 @@ response_3d_plot(k_1=0.08, k_2=0.4)
 
 # Fig 5
 ED = Error_dynamics()
-ED.simulate(20030, 0.001, 0)
+ED.simulate(23030, 0.001, 0)
 ED.plot_timeseries_error()
 ED.plot_timeseries_uncertainty()
 ED.plot_timeseries_g()
