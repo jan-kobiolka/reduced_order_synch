@@ -95,10 +95,10 @@ def visualise_esn():
     rmse(target=response_data[:, train + 1:train + pred + 1], predicted=response_pred_output)
 
     plot_pred(data_test=drive_data[:, 1:train + pred + 1], data_train=drive_train_output, data_pred=drive_pred_output
-              , train_time=train, pred_time=pred, model="fig_9_a", label="(a)")
+              , train_time=train, pred_time=pred, model="fig_11_a", label="(a)")
     plot_pred_errors(data_test=drive_data[:, 1:train + pred + 1], data_train=drive_train_output,
                      data_pred=drive_pred_output
-                     , train_time=train, pred_time=pred, model="fig_9_b", label="(b)")
+                     , train_time=train, pred_time=pred, model="fig_11_b", label="(b)")
 
     # plot_pred(data_test=response_data[:, 1:train + pred + 1], data_train=response_train_output,
     #           data_pred=response_pred_output,

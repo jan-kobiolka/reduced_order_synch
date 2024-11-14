@@ -116,14 +116,14 @@ def visualise_ro():
     rmse(target=response_data[:, train:train + pred], predicted=response_pred_output)  # 0.00032
 
     plot_pred(data_test=drive_data[:, 1:train + pred], data_train=drive_train_output, data_pred=drive_pred_output,
-              train_time=train - 1, pred_time=pred, model="fig_11_a", label="(a)")
+              train_time=train - 1, pred_time=pred, model="fig_13_a", label="(a)")
     plot_pred_errors(data_test=drive_data[:, 1:train + pred], data_train=drive_train_output,
                      data_pred=drive_pred_output
-                     , train_time=train - 1, pred_time=pred, model="fig_11_b", label="(b)")
+                     , train_time=train - 1, pred_time=pred, model="fig_13_b", label="(b)")
 
     plot_pred(data_test=response_data[:, 1:train + pred], data_train=response_train_output,
               data_pred=response_pred_output,
-              train_time=train - 1, pred_time=pred, model="fig_11_c", label="(c)")
+              train_time=train - 1, pred_time=pred, model="fig_13_c", label="(c)")
     plot_pred_errors(data_test=response_data[:, 1:train + pred], data_train=response_train_output,
                      data_pred=response_pred_output
-                     , train_time=train - 1, pred_time=pred, model="fig_11_d", label="(d)")
+                     , train_time=train - 1, pred_time=pred, model="fig_13_d", label="(d)")

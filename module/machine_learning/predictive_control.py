@@ -206,10 +206,10 @@ def visualise_pred_control():
     #                            model="fig_14")
     plot_transition_errors(data_1=np.hstack((drive_pred[:-1], transition_drive[:-1])).T, data_2=drive_controlled[1:].T,
                            train_time=train, pred_time=pred,
-                           control_time=controlled - 1, model="fig_14")
+                           control_time=controlled - 1, model="fig_16")
 
     plot_train_pred_controlled(response=np.hstack((response_train_output, response_pred_output, response_controlled.T)),
                                drive=drive_all_projected, train_time=train - 1, pred_time=pred, control_time=controlled,
-                               model="fig_16_a", label="(a)")
+                               model="fig_18_a", label="(a)")
     plot_errors(response=response_controlled.T, drive=drive_projected.T, train_time=train - 1, pred_time=pred,
-                control_time=controlled, model="fig_16_b", label="(b)")
+                control_time=controlled, model="fig_18_b", label="(b)")

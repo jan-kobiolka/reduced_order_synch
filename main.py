@@ -38,24 +38,27 @@ bifurcation()
 drive_3d_plot(k_1=0.08, k_2=0.4)
 response_3d_plot(k_1=0.08, k_2=0.4)
 
-# Fig 5
+
 ED = Error_dynamics()
 ED.simulate(23030, 0.001, 0)
+# Fig 5
 ED.plot_timeseries_error()
+# Fig 6
 ED.plot_timeseries_uncertainty()
+# Fig 7
 ED.plot_timeseries_g()
 
-# Fig 6
+# Fig 8
 Lya_k_1_k_2()
 
-# Fig 9
+# Fig 11
 visualise_esn()
 
-# Fig 11
+# Fig 13
 visualise_ro()
 
-# Fig 13
+# Fig 15
 visualise_online_controller()
 
-# Fig 14 & 16
+# Fig 16 & 18
 visualise_pred_control()

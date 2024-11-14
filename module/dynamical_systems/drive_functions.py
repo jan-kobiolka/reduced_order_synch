@@ -642,6 +642,6 @@ def Lya_k_1_k_2():
     plt.subplots_adjust(hspace=0.2)
     plt.tight_layout()
 
-    plt.savefig('images/fig_6.eps', dpi=250, format='eps')
-    plt.savefig('images/fig_6.png', dpi=400, format='png')
+    plt.savefig('images/fig_8.eps', dpi=250, format='eps')
+    plt.savefig('images/fig_8.png', dpi=400, format='png')
     plt.show()

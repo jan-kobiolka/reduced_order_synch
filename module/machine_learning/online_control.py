@@ -99,6 +99,6 @@ def visualise_online_controller():
 
     plot_train_pred_controlled(response=np.hstack((response_train_output, response_pred_output, response_controlled.T)),
                                drive=drive_all_projected, train_time=train - 1, pred_time=pred, control_time=controlled,
-                               model="fig_13_a", label="(a)")
+                               model="fig_15_a", label="(a)")
     plot_errors(response=response_controlled.T, drive=drive_projected.T, train_time=train - 1, pred_time=pred,
-                control_time=controlled, model="fig_13_b", label="(b)")
+                control_time=controlled, model="fig_15_b", label="(b)")
