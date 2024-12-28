@@ -6,7 +6,7 @@ Reduced-order adaptive synchronization in a chaotic neural network with paramete
 
 **Authors**: Jan Kobiolka, Jens Habermann, Marius E. Yamakou
 
-**Paper Link**: [Read the paper](https://arxiv.org/pdf/2408.16155)
+**Paper Link**: [Read the paper](https://link.springer.com/article/10.1007/s11071-024-10821-6)
 
 **Abstract**: This paper addresses the reduced-order synchronization problem between two chaotic memristive Hindmarsh-Rose (HR) neurons of different orders using two distinct methods. The first method employs the Lyapunov active control technique. Through this technique, we develop appropriate control functions to synchronize a 4D chaotic HR neuron (response system) with the canonical projection of a 5D chaotic HR neuron (drive system). Numerical simulations are provided to demonstrate the effectiveness of this approach. The second method is data-driven and leverages a machine learning-based control technique. Our technique utilizes a heuristic combination of reservoir computing (RC) algorithms, incorporating reservoir observer (RO), online control (OC), and online predictive control (OPC) algorithms. We anticipate our effective heuristic RC adaptive control algorithm to guide the development of more formally structured and systematic, data-driven RC control approaches to chaotic synchronization problems and to inspire more data-driven neuromorphic methods for controlling and achieving synchronization in chaotic neural networks *in vivo*.
 ## Setting Up
