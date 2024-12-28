@@ -32,10 +32,10 @@ python preprocessing.py
 This creates two required folders: <span style="background-color: #fff3; padding: 2px 4px; border-radius: 3px;">images</span> and
 <span style="background-color: #fff3; padding: 2px 4px; border-radius: 3px;">data</span>. (You can also create these manually if preferred.)
 
-4. For some functions, namely (Fig. 2, Fig. 3a, and Fig. 8), require data from Fortran-generated .txt files.
+4. For some functions, namely (Fig. 2, Fig. 3b, and Fig. 8), require data from Fortran-generated .txt files.
  Please run the following Fortran scripts:
    1. (drive_lya_exp_s.f, drive_lya_exp_sigma.f, drive_lya_exp_k_1.f, drive_lya_exp_k_2.f) -> Fig_2 
-   2.  (drive_lya_exp_k_1_k_2.f) -> Fig_3_a (takes around 18 hours)
+   2.  (drive_lya_exp_k_1_k_2.f) -> Fig_3_b (takes around 18 hours)
    3. (synchronization_k_1_k_2.f95) -> Fig_8 (takes around 5-6 days)
 
 - Compile Fortran scripts:
